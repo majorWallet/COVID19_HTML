@@ -1,0 +1,35 @@
+a {
+    color: black;
+    text-decoration: None;
+}
+
+.active {
+    color: red;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 0px;
+    padding: 20px;
+}
+
+ol {
+    font-size: 20px;
+    text-align: center;
+    border-right: 1px solid gray;
+    margin: 0px;
+    margin-left: 20px;
+    width: 100px;
+    padding: 20px;
+}
+
+body {
+    margin: 0px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
